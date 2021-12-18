@@ -7,7 +7,9 @@ import reactImg from './images/carbon-intensity-home-screenshot.png';
 function App() {
   return (
     <div className="App">
-      <Project coverImg={jsImg} title='Todo List App' desc='A JavaScript app that allows 
+      <Project coverImg={jsImg}
+      title='Todo List App'
+      desc='A JavaScript app that allows 
       users to add tasks to a to-do list, edit existing tasks, mark tasks as completed, 
       and delete existing tasks.' />
       <Project coverImg={rorImg}
@@ -17,9 +19,8 @@ function App() {
       to group these projects by subject.' />
       <Project coverImg={reactImg}
       title='Carbon Intensity Tracker'
-      desc='A Ruby On Rails app that allows a user to keep track of the hours that 
-      they have spent on specific projects at their university. It also allows them 
-      to group these projects by subject.' />
+      desc='A simple React application that fetches and displays data about the carbon
+       intensity of the various districts in Great Britain.' />
     </div>
   );
 }
