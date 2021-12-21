@@ -21,6 +21,9 @@ function App() {
       title='Carbon Intensity Tracker'
       desc='A simple React application that fetches and displays data about the carbon
        intensity of the various districts in Great Britain.' />
+      <Project title='Car Reservation Website' 
+      desc='A web application with a React front end and a Rails API back end that allows the user to 
+      add cars to the catalogue, delete cars, and reserve cars.' />
     </div>
   );
 }
