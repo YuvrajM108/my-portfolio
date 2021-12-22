@@ -1,8 +1,10 @@
+import React from 'react';
 import './App.css';
 import Project from './components/project/Project';
-import jsImg from './images/todo.png';
+import jsImg from './images/todolist.png';
 import rorImg from './images/groups-index-screenshot.png';
 import reactImg from './images/carbon-intensity-home-screenshot.png';
+import railsReactImg from './images/car-reservations.png';
 
 function App() {
   return (
@@ -21,7 +23,8 @@ function App() {
       title='Carbon Intensity Tracker'
       desc='A simple React application that fetches and displays data about the carbon
        intensity of the various districts in Great Britain.' />
-      <Project title='Car Reservation Website' 
+      <Project coverImg={railsReactImg}
+      title='Car Reservation Website' 
       desc='A web application with a React front end and a Rails API back end that allows the user to 
       add cars to the catalogue, delete cars, and reserve cars.' />
     </div>
