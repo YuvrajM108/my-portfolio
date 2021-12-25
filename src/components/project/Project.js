@@ -6,8 +6,8 @@ const Project = ({
   title,
   desc,
 }) => (
-  <section>
-    <img src={coverImg} alt="cover-image" />
+  <section className="project-item">
+    <img className="cover-image" src={coverImg} alt="cover-image" />
     <h3>{title}</h3>
     <p>{desc}</p>
   </section>
