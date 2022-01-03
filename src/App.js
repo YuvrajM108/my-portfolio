@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className='project-menu'>
+        <h1>Projects</h1>
         <div className='project-row'>
           <Project coverImg="./images/todolist.png"
           title='Todo List App'
@@ -28,6 +29,11 @@ function App() {
           desc='A web application with a React front end and a Rails API back end that allows the user to 
           add cars to the catalogue, delete cars, and reserve cars.' />
         </div>
+      </div>
+      <div className='contact'>
+        <a href='https://www.linkedin.com/in/yuvraj-manoo'><p>/yuvraj-manoo</p></a>
+        <a href='https://www.twitter.com/YuvrajM108'><p>/YuvrajM108</p></a>
+        <p>yuvrajmanoo1@gmail.com</p>
       </div>
     </div>
   );
