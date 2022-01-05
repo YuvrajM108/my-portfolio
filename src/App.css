@@ -33,3 +33,9 @@ section.project-item {
   display: flex;
   justify-content: space-evenly;
 }
+
+img.professional-photo {
+  width: 10%;
+  border: 3px solid blue;
+  border-radius: 50%;
+}

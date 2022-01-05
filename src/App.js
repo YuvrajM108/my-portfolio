@@ -5,6 +5,10 @@ import Project from './components/project/Project';
 function App() {
   return (
     <div className="App">
+      <div className='bio'>
+        <img className='professional-photo' alt='profile picture' src='./images/professional-photo.jpg' />
+        <h1>Yuvraj Manoo</h1>
+      </div>
       <div className='project-menu'>
         <h1>Projects</h1>
         <div className='project-row'>
@@ -33,7 +37,7 @@ function App() {
       <div className='contact'>
         <a href='https://www.linkedin.com/in/yuvraj-manoo'><p>/yuvraj-manoo</p></a>
         <a href='https://www.twitter.com/YuvrajM108'><p>/YuvrajM108</p></a>
-        <p>yuvrajmanoo1@gmail.com</p>
+        <a href='mailto: yuvrajmanoo1@gmail.com'><p>yuvrajmanoo1@gmail.com</p></a>
       </div>
     </div>
   );
