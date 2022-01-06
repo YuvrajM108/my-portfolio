@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <div className='bio'>
         <img className='professional-photo' alt='profile picture' src='./images/professional-photo.jpg' />
-        <h1>Yuvraj Manoo</h1>
+        <h1 className='name'>Yuvraj Manoo</h1>
+        <h1 className='job-title'>Full-Stack Web Developer</h1>
       </div>
       <div className='project-menu'>
         <h1>Projects</h1>

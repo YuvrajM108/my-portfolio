@@ -22,7 +22,7 @@ img.cover-image {
 }
 
 section.project-item {
-  border: 2px solid;
+  border: 2px groove;
   width: 40em;
   height: 25em;
   margin-top: 1em;
@@ -34,8 +34,27 @@ section.project-item {
   justify-content: space-evenly;
 }
 
+.bio {
+  border-bottom: 5px groove black;
+}
+
 img.professional-photo {
   width: 10%;
   border: 3px solid blue;
   border-radius: 50%;
+  margin: 10px;
+}
+
+h1.name,
+.job-title {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1.name {
+  font-size: 48px;
+}
+
+h1.job-title {
+  font-size: 36px;
 }
