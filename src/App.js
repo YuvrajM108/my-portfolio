@@ -39,15 +39,15 @@ function App() {
         <h1>Contact:</h1>
         <a className='contact-link' href='https://www.linkedin.com/in/yuvraj-manoo'>
           <img className='contact-logo' alt='linkedin-logo' src='./images/linkedin-logo.png' />
-          <p>/yuvraj-manoo</p>
+          <p>via LinkedIn</p>
         </a>
         <a className='contact-link' href='https://www.twitter.com/YuvrajM108'>
           <img className='contact-logo' alt='twitter-logo' src='./images/twitter-logo.png' />
-          <p>/YuvrajM108</p>
+          <p>via Twitter</p>
         </a>
         <a className='contact-link' href='mailto: yuvrajmanoo1@gmail.com'>
           <img className='contact-logo' alt='email-logo' src='./images/email-logo.png' />
-          <p>yuvrajmanoo1@gmail.com</p>
+          <p>via Email</p>
         </a>
       </div>
     </div>

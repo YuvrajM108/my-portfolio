@@ -61,11 +61,16 @@ h1.job-title {
 }
 
 a.contact-link {
+  width: 8vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: black;
   text-decoration: none;
+}
+
+a.contact-link:hover {
+  color: blue;
 }
 
 img.contact-logo {
