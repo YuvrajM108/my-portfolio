@@ -37,18 +37,20 @@ function App() {
       </div>
       <div className='contact'>
         <h1>Contact:</h1>
-        <a className='contact-link' href='https://www.linkedin.com/in/yuvraj-manoo'>
-          <img className='contact-logo' alt='linkedin-logo' src='./images/linkedin-logo.png' />
-          <p>via LinkedIn</p>
-        </a>
-        <a className='contact-link' href='https://www.twitter.com/YuvrajM108'>
-          <img className='contact-logo' alt='twitter-logo' src='./images/twitter-logo.png' />
-          <p>via Twitter</p>
-        </a>
-        <a className='contact-link' href='mailto: yuvrajmanoo1@gmail.com'>
-          <img className='contact-logo' alt='email-logo' src='./images/email-logo.png' />
-          <p>via Email</p>
-        </a>
+        <div className='contact-links'>
+          <a className='contact-link' href='https://www.linkedin.com/in/yuvraj-manoo'>
+            <img className='contact-logo' alt='linkedin-logo' src='./images/linkedin-logo.png' />
+            <p>via LinkedIn</p>
+          </a>
+          <a className='contact-link' href='https://www.twitter.com/YuvrajM108'>
+            <img className='contact-logo' alt='twitter-logo' src='./images/twitter-logo.png' />
+            <p>via Twitter</p>
+          </a>
+          <a className='contact-link' href='mailto: yuvrajmanoo1@gmail.com'>
+            <img className='contact-logo' alt='email-logo' src='./images/email-logo.png' />
+            <p>via Email</p>
+          </a>
+        </div>
       </div>
     </div>
   );
