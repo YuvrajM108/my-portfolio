@@ -9,6 +9,11 @@ function App() {
         <img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" />
         <h1 className="name">Yuvraj Manoo</h1>
         <h1 className="job-title">Full-Stack Web Developer</h1>
+        <section className='what-i-do'>
+          <h2>What I Do:</h2>
+          <p>I build web applications using a variety of technologies such as HTML, CSS, JavaScript, Ruby On Rails,
+            and React Redux.</p>
+        </section>
       </div>
       <div className="project-menu">
         <h1>Projects</h1>
