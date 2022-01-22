@@ -87,3 +87,9 @@ img.contact-logo {
   height: 20px;
   margin-right: 5px;
 }
+
+section.what-i-do {
+  margin: 5vh;
+  border: 3px groove black;
+  background-color: white;
+}
