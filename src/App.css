@@ -23,6 +23,7 @@ img.cover-image {
 
 section.project-item {
   border: 2px groove;
+  border-radius: 10px;
   width: 40em;
   height: 25em;
   margin-top: 1em;
@@ -91,5 +92,6 @@ img.contact-logo {
 section.what-i-do {
   margin: 5vh;
   border: 3px groove black;
+  border-radius: 10px;
   background-color: white;
 }
