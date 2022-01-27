@@ -26,6 +26,7 @@ function App() {
             desc="A JavaScript app that allows
           users to add tasks to a to-do list, edit existing tasks, mark tasks as completed,
           and delete existing tasks."
+            link="https://github.com/YuvrajM108/js-to-do-list"
           />
           <Project
             coverImg="./images/groups-index-screenshot.png"
@@ -33,6 +34,7 @@ function App() {
             desc="A Ruby On Rails app that allows a user to keep track of the hours that
           they have spent on specific projects at their university. It also allows them
           to group these projects by subject."
+            link="https://github.com/YuvrajM108/group-transactions-capstone"
           />
         </div>
         <div className="project-row">
@@ -41,12 +43,14 @@ function App() {
             title="Carbon Intensity Tracker"
             desc="A simple React application that fetches and displays data about the carbon
           intensity of the various districts in Great Britain."
+            link="https://github.com/YuvrajM108/carbon-intensity-app-capstone"
           />
           <Project
             coverImg="./images/car-reservations.png"
             title="Car Reservation Website"
             desc="A web application with a React front end and a Rails API back end that allows the user to
           add cars to the catalogue, delete cars, and reserve cars."
+            link="https://github.com/mariordgez/final-capstone-react/"
           />
         </div>
       </div>
