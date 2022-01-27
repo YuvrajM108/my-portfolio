@@ -2,37 +2,107 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img.cover-image {
+  width: 100%;
+  height: 15em;
+  border-bottom: 1px solid;
+}
+
+section.project-item {
+  border: 2px groove;
+  border-radius: 10px;
+  width: 40em;
+  height: 25em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.bio,
+.project-menu {
+  border-bottom: 5px groove black;
+}
+
+img.professional-photo {
+  width: 10%;
+  border: 3px solid blue;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+h1.name,
+.job-title {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1.name {
+  font-size: 48px;
+}
+
+h1.job-title {
+  font-size: 36px;
+}
+
+a.contact-link {
+  width: 8vw;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  margin: 2px;
+}
+
+a.contact-link:hover {
   color: white;
+  text-decoration: underline;
 }
 
-.App-link {
-  color: #61dafb;
+img.contact-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section.what-i-do {
+  margin: 5vh;
+  border: 3px groove black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+a.project-title {
+  color: black;
+  text-decoration: none;
+}
+
+a.project-title:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
