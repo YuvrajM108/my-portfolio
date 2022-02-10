@@ -28,6 +28,7 @@ section.project-item {
   height: 25em;
   margin-top: 1em;
   margin-bottom: 1em;
+  background-color: white;
 }
 
 .contact-links {
@@ -102,7 +103,6 @@ a.project-title {
 }
 
 a.project-title:hover {
-  color: white;
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
 }
