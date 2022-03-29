@@ -17,17 +17,18 @@
 
 img.cover-image {
   width: 100%;
-  height: 15em;
+  height: 18em;
   border-bottom: 1px solid;
 }
 
 section.project-item {
-  border: 2px groove;
+  border: 2px groove black;
   border-radius: 10px;
   width: 40em;
   height: 25em;
   margin-top: 1em;
   margin-bottom: 1em;
+  background-color: white;
 }
 
 .contact-links {
@@ -62,6 +63,7 @@ h1.name,
 
 h1.name {
   font-size: 48px;
+  text-shadow: 2px 2px #fff;
 }
 
 h1.job-title {
@@ -102,7 +104,6 @@ a.project-title {
 }
 
 a.project-title:hover {
-  color: white;
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
 }
