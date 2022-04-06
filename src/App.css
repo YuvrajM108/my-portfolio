@@ -23,12 +23,16 @@ img.cover-image {
 
 section.project-item {
   border: 2px groove black;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 40em;
   height: 25em;
   margin-top: 1em;
   margin-bottom: 1em;
   background-color: white;
+}
+
+section.project-item:hover { 
+  box-shadow: 0 0 6px rgb(74, 200, 250);
 }
 
 .contact-links {
