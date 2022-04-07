@@ -103,6 +103,10 @@ section.what-i-do {
   background-color: white;
 }
 
+p.what-i-do {
+  font-style: italic;
+}
+
 a.project-title {
   color: black;
   text-decoration: none;

@@ -11,7 +11,7 @@ function App() {
         <h1 className="job-title">Full-Stack Web Developer</h1>
         <section className="what-i-do">
           <h2>What I Do:</h2>
-          <p>
+          <p className='what-i-do'>
             I build web applications using a variety of technologies such as HTML, CSS, JavaScript,
             Ruby On Rails, and React Redux.
           </p>
