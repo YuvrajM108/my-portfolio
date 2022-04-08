@@ -113,6 +113,6 @@ a.project-title {
 }
 
 a.project-title:hover {
-  text-decoration: underline;
+  text-shadow: 2px 2px 4px rgb(35, 135, 173);
   cursor: pointer;
 }
