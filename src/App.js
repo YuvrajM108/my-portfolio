@@ -22,6 +22,7 @@ function App() {
         <div className="project-row">
           <Project
             coverImg="./images/todolist.png"
+            langImg="./images/js-logo.png"
             title="Todo List App"
             desc="A JavaScript app that allows
           users to add tasks to a to-do list, edit existing tasks, mark tasks as completed,
@@ -30,6 +31,7 @@ function App() {
           />
           <Project
             coverImg="./images/groups-index-screenshot.png"
+            langImg="./images/ror-logo.png"
             title="University Project Time Tracker"
             desc="A Ruby On Rails app that allows a user to keep track of the hours that
           they have spent on specific projects at their university. It also allows them
@@ -40,6 +42,7 @@ function App() {
         <div className="project-row">
           <Project
             coverImg="./images/carbon-intensity-home-screenshot.png"
+            langImg="./images/react-logo.png"
             title="Carbon Intensity Tracker"
             desc="A simple React application that fetches and displays data about the carbon
           intensity of the various districts in Great Britain."
@@ -47,6 +50,7 @@ function App() {
           />
           <Project
             coverImg="./images/car-reservations.png"
+            langImg="./images/react-logo.png"
             title="Car Reservation Website"
             desc="A web application with a React front end and a Rails API back end that allows the user to
           add cars to the catalogue, delete cars, and reserve cars."
