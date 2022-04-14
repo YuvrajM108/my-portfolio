@@ -39,7 +39,7 @@ section.project-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 
 .contact-links {
@@ -116,6 +116,7 @@ p.what-i-do {
 a.project-title {
   color: black;
   text-decoration: none;
+  margin: 0;
 }
 
 a.project-title:hover {
@@ -123,6 +124,11 @@ a.project-title:hover {
   cursor: pointer;
 }
 
+p.project-desc {
+  margin: 0
+}
+
 img.lang-image {
   width: 30px;
+  margin: 0
 }

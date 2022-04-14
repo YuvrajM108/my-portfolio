@@ -13,7 +13,7 @@ const Project = ({
     <section className="project-info">
       <img className="lang-image" src={langImg} alt="language" />
       <a className="project-title" href={link}><h3>{title}</h3></a>
-      <p>{desc}</p>
+      <p className="project-desc">{desc}</p>
     </section>
   </section>
 );
