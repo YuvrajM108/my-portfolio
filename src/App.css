@@ -35,6 +35,13 @@ section.project-item:hover {
   box-shadow: 0 0 6px rgb(74, 200, 250);
 }
 
+section.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
 .contact-links {
   display: flex;
   justify-content: space-between;
@@ -117,5 +124,5 @@ a.project-title:hover {
 }
 
 img.lang-image {
-  width: 25px;
+  width: 30px;
 }

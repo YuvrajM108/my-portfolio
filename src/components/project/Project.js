@@ -10,9 +10,11 @@ const Project = ({
 }) => (
   <section className="project-item">
     <a href={link}><img className="cover-image" src={coverImg} alt="thumbnail" /></a>
-    <img className="lang-image" src={langImg} alt="language" />
-    <a className="project-title" href={link}><h3>{title}</h3></a>
-    <p>{desc}</p>
+    <section className="project-info">
+      <img className="lang-image" src={langImg} alt="language" />
+      <a className="project-title" href={link}><h3>{title}</h3></a>
+      <p>{desc}</p>
+    </section>
   </section>
 );
 
