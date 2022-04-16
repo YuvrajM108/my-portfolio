@@ -35,4 +35,8 @@ Project.propTypes = {
   link: PropTypes.string.isRequired,
 };
 
+Project.defaultProps = {
+  langImgTwo: undefined
+};
+
 export default Project;

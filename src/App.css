@@ -31,7 +31,7 @@ section.project-item {
   background-color: white;
 }
 
-section.project-item:hover { 
+section.project-item:hover {
   box-shadow: 0 0 6px rgb(74, 200, 250);
 }
 
