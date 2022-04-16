@@ -36,7 +36,7 @@ Project.propTypes = {
 };
 
 Project.defaultProps = {
-  langImgTwo: undefined
+  langImgTwo: undefined,
 };
 
 export default Project;
