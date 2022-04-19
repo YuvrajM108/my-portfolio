@@ -138,3 +138,14 @@ section.lang-images {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 900px) {
+  .project-row {
+    flex-direction: column;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
