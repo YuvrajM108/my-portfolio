@@ -152,5 +152,6 @@ section.lang-images {
 
   a.contact-link {
     flex-direction: row;
+    width: 20vw;
   }
 }
