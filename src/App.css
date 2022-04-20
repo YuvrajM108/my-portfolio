@@ -142,10 +142,15 @@ section.lang-images {
 @media screen and (max-width: 900px) {
   .project-row {
     flex-direction: column;
+    align-items: center;
   }
 
   .contact-links {
     flex-direction: column;
     align-items: center;
+  }
+
+  a.contact-link {
+    flex-direction: row;
   }
 }
