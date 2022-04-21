@@ -126,6 +126,7 @@ a.project-title:hover {
 
 p.project-desc {
   margin-top: -20px;
+  word-wrap: break-word;
 }
 
 img.lang-image {
