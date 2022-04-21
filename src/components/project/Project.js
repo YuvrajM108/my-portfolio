@@ -21,7 +21,7 @@ const Project = ({
         <img className="lang-image" src={langImgOne} alt="language" />
       )}
       <a className="project-title" href={link}><h3>{title}</h3></a>
-      <p className="project-desc">{desc}</p>
+      <p className="project-desc" title={desc}>{desc}</p>
     </section>
   </section>
 );
