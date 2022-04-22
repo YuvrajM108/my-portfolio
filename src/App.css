@@ -142,10 +142,22 @@ section.lang-images {
   align-items: center;
 }
 
+@media screen and (max-width: 1280px) {
+  section.project-item {
+    width: 32em;
+    height: 20em;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .project-row {
     flex-direction: column;
     align-items: center;
+  }
+
+  section.project-item {
+    width: 40em;
+    height: 25em;
   }
 
   .contact-links {
