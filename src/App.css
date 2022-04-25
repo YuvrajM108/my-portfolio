@@ -147,6 +147,22 @@ section.lang-images {
     width: 32em;
     height: 20em;
   }
+
+  img.cover-image {
+    height: 9em;
+  }
+
+  img.lang-image {
+    width: 20px;
+  }
+
+  a.project-title {
+    font-size: 12px;
+  }
+
+  p.project-desc {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 900px) {
