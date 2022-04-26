@@ -142,14 +142,14 @@ section.lang-images {
   align-items: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) and (min-width: 900px) {
   section.project-item {
     width: 32em;
     height: 20em;
   }
 
   img.cover-image {
-    height: 9em;
+    height: 14.4em;
   }
 
   img.lang-image {
