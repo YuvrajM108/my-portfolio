@@ -61,7 +61,7 @@ section.project-info {
 
 img.professional-photo {
   width: 10%;
-  border: 3px solid blue;
+  border: 2px solid rgb(35, 135, 173);
   border-radius: 50%;
   margin: 10px;
   box-shadow: 5px 5px 5px black;
