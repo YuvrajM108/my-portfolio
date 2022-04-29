@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div className="bio">
-        <img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" />
-        <h1 className="name">Yuvraj Manoo</h1>
+        <a href="https://github.com/YuvrajM108"><img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" /></a>
+        <a href="https://github.com/YuvrajM108" className='name-link'><h1 className="name">Yuvraj Manoo</h1></a>
         <h1 className="job-title">Full-Stack Web Developer</h1>
         <section className="what-i-do">
           <h2>What I Do:</h2>

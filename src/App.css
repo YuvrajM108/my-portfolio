@@ -78,6 +78,17 @@ h1.name {
   text-shadow: 2px 2px 4px #fff;
 }
 
+a.name-link {
+  color: black;
+  text-decoration: none;
+}
+
+a.name-link:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 h1.job-title {
   font-size: 36px;
 }
