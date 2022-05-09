@@ -67,10 +67,6 @@ img.professional-photo {
   box-shadow: 5px 5px 5px black;
 }
 
-img.professional-photo:hover {
-  box-shadow: none;
-}
-
 h1.name,
 .job-title {
   font-style: italic;

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="bio">
-        <a href="https://github.com/YuvrajM108"><img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" /></a>
+        <img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" />
         <a href="https://github.com/YuvrajM108" className="name-link"><h1 className="name">Yuvraj Manoo</h1></a>
         <h1 className="job-title">Full-Stack Web Developer</h1>
         <section className="what-i-do">
