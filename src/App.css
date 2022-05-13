@@ -19,11 +19,12 @@ img.cover-image {
   width: 100%;
   height: 18em;
   border-bottom: 1px solid;
+  border-radius: 8px;
 }
 
 section.project-item {
   border: 2px groove black;
-  border-radius: 5px;
+  border-radius: 8px;
   width: 40em;
   height: 25em;
   margin-top: 1em;
