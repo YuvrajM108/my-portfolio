@@ -12,9 +12,8 @@ function App() {
         <section className="what-i-do">
           <h2>What I Do:</h2>
           <p className="what-i-do">
-            I build dynamic web applications using a variety of front-end and back-end technologies such as
-            HTML, CSS, JavaScript,
-            Ruby On Rails, and React Redux.
+            I build dynamic web applications using a variety of front-end and back-end technologies
+            such as HTML, CSS, JavaScript, Ruby On Rails, and React Redux.
           </p>
         </section>
       </div>
