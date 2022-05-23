@@ -8,6 +8,7 @@ const Project = ({
   title,
   desc,
   link,
+  liveDemo,
 }) => (
   <section className="project-item">
     <a href={link}><img className="cover-image" src={coverImg} alt="thumbnail" /></a>
@@ -22,6 +23,11 @@ const Project = ({
       )}
       <a className="project-title" href={link}><h3>{title}</h3></a>
       <p className="project-desc" title={desc}>{desc}</p>
+      {liveDemo !== undefined ? (
+        <a className="live-demo" href={liveDemo}>Live Demo</a>
+      ) : (
+        <p></p>
+      )}
     </section>
   </section>
 );
@@ -33,10 +39,12 @@ Project.propTypes = {
   title: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
+  liveDemo: PropTypes.string,
 };
 
 Project.defaultProps = {
   langImgTwo: undefined,
+  liveDemo: undefined,
 };
 
 export default Project;

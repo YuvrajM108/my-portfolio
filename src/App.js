@@ -28,6 +28,7 @@ function App() {
           users to add tasks to a to-do list, edit existing tasks, mark tasks as completed,
           and delete existing tasks."
             link="https://github.com/YuvrajM108/js-to-do-list"
+            liveDemo="https://yuvrajm108.github.io/js-to-do-list/index.html"
           />
           <Project
             coverImg="./images/groups-index-screenshot.png"
@@ -37,6 +38,7 @@ function App() {
           they have spent on specific projects at their university. It also allows them
           to group these projects by subject."
             link="https://github.com/YuvrajM108/group-transactions-capstone"
+            liveDemo="https://desolate-ravine-80526.herokuapp.com/"
           />
         </div>
         <div className="project-row">
@@ -47,6 +49,7 @@ function App() {
             desc="A simple React application that fetches and displays data about the carbon
           intensity of the various districts in Great Britain."
             link="https://github.com/YuvrajM108/carbon-intensity-app-capstone"
+            liveDemo="https://adoring-pasteur-94aa51.netlify.app/"
           />
           <Project
             coverImg="./images/car-reservations.png"
