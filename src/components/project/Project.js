@@ -26,7 +26,7 @@ const Project = ({
       {liveDemo !== undefined ? (
         <a className="live-demo" href={liveDemo}>Live Demo</a>
       ) : (
-        <p></p>
+        <br/>
       )}
     </section>
   </section>
