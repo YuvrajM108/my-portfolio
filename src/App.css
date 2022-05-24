@@ -26,7 +26,7 @@ section.project-item {
   border: 2px groove black;
   border-radius: 8px;
   width: 40em;
-  height: 25em;
+  height: 27.5em;
   margin-top: 1em;
   margin-bottom: 1em;
   background-color: white;
@@ -168,7 +168,7 @@ section.lang-images {
 @media screen and (max-width: 1280px) and (min-width: 900px) {
   section.project-item {
     width: 32em;
-    height: 20em;
+    height: 20.15em;
   }
 
   section.project-item:hover {
@@ -184,7 +184,8 @@ section.lang-images {
     width: 20px;
   }
 
-  a.project-title {
+  a.project-title,
+  .live-demo {
     font-size: 12px;
   }
 
