@@ -154,6 +154,15 @@ p.project-desc {
   overflow: hidden;
 }
 
+a.live-demo {
+  color: rgb(35, 135, 173);
+  text-decoration: none;
+}
+
+a.live-demo:hover {
+  font-weight: 500;
+}
+
 img.lang-image {
   width: 30px;
   margin: 0;
