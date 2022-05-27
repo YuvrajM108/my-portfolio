@@ -157,10 +157,12 @@ p.project-desc {
 a.live-demo {
   color: rgb(35, 135, 173);
   text-decoration: none;
+  border-radius: 3px;
 }
 
 a.live-demo:hover {
   font-weight: 500;
+  box-shadow: 0 0 2px black;
 }
 
 img.lang-image {
