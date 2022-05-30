@@ -158,6 +158,7 @@ a.live-demo {
   color: rgb(35, 135, 173);
   text-decoration: none;
   border-radius: 3px;
+  padding: 3px;
 }
 
 a.live-demo:hover {
