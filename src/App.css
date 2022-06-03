@@ -159,6 +159,7 @@ a.live-demo {
   text-decoration: none;
   border-radius: 3px;
   padding: 3px;
+  transition: box-shadow 500ms linear;
 }
 
 a.live-demo:hover {
