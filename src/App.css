@@ -159,12 +159,13 @@ a.live-demo {
   text-decoration: none;
   border-radius: 3px;
   padding: 3px;
-  transition: background-color 500ms linear;
+  transition: background-color 500ms linear, color 500ms linear;
 }
 
 a.live-demo:hover {
   font-weight: 500;
-  background-color: rgb(185, 185, 185);
+  color: #fff;
+  background-color: rgb(74, 200, 250);
 }
 
 img.lang-image {
