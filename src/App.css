@@ -159,7 +159,7 @@ a.live-demo {
   text-decoration: none;
   border-radius: 3px;
   padding: 3px;
-  transition: background-color 500ms linear, color 500ms linear;
+  transition: background-color 250ms linear, color 250ms linear;
 }
 
 a.live-demo:hover {
