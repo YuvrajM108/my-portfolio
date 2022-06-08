@@ -59,7 +59,7 @@ section.project-info {
 
 .bio,
 .project-menu {
-  border-bottom: 5px groove black;
+  border-bottom: 5px double black;
 }
 
 img.professional-photo {
