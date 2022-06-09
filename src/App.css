@@ -63,7 +63,9 @@ section.project-info {
 }
 
 img.professional-photo {
-  width: 10%;
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
   border: 2px solid rgb(35, 135, 173);
   border-radius: 50%;
   margin: 10px;
