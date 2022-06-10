@@ -15,14 +15,14 @@ function App() {
             I build dynamic web applications using a variety of front-end and back-end technologies
             such as
             <span className="html">HTML</span>
-            ,
+            , 
             <span className="css">CSS</span>
-            ,
+            , 
             <span className="js">JavaScript</span>
-            ,
+            , 
             <span className="ror">Ruby On Rails</span>
             ,
-            and
+            and 
             <span className="rr">React Redux</span>
             .
           </p>
