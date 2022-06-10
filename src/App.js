@@ -13,9 +13,18 @@ function App() {
           <h2>What I Do:</h2>
           <p className="what-i-do">
             I build dynamic web applications using a variety of front-end and back-end technologies
-            such as <span className="html">HTML</span>, <span className="css">CSS</span>,
-            <span className="js">JavaScript</span>, <span className="ror">Ruby On Rails</span>,
-            and <span className="rr">React Redux</span>.
+            such as
+            <span className="html">HTML</span>
+            ,
+            <span className="css">CSS</span>
+            ,
+            <span className="js">JavaScript</span>
+            ,
+            <span className="ror">Ruby On Rails</span>
+            ,
+            and
+            <span className="rr">React Redux</span>
+            .
           </p>
         </section>
       </div>
