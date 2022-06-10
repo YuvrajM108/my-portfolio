@@ -22,7 +22,7 @@ function App() {
             ,
             <span className="ror"> Ruby On Rails</span>
             ,
-             and
+            and
             <span className="rr"> React Redux</span>
             .
           </p>
