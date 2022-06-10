@@ -138,6 +138,26 @@ p.what-i-do {
   font-weight: 500;
 }
 
+span.html {
+  color: orangered;
+}
+
+span.css {
+  color: blue;
+}
+
+span.js {
+  color: goldenrod;
+}
+
+span.ror {
+  color: maroon;
+}
+
+span.rr {
+  color: cyan;
+}
+
 a.project-title {
   color: black;
   text-decoration: none;
