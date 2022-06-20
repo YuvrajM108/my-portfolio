@@ -23,7 +23,7 @@ img.cover-image {
 }
 
 section.project-item {
-  border: 2px groove black;
+  border: 1px groove black;
   border-radius: 8px;
   width: 40em;
   height: 27.5em;
