@@ -119,10 +119,6 @@ a.contact-link:hover {
   box-shadow: 0 0 8px #fff;
 }
 
-a.contact-link:hover img.contact-logo {
-  box-shadow: none;
-}
-
 img.contact-logo {
   width: 20px;
   height: 20px;
