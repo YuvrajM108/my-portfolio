@@ -119,7 +119,7 @@ a.contact-link:hover {
   box-shadow: 0 0 8px #fff;
 }
 
-img.contact-logo a.contact-link:hover {
+a.contact-link:hover img.contact-logo {
   box-shadow: none;
 }
 
