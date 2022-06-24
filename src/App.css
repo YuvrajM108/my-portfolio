@@ -81,10 +81,12 @@ h1.name,
 h1.name {
   font-size: 48px;
   text-shadow: 2px 2px 4px #fff;
+  transition: font-size 250ms linear;
 }
 
 h1.name:hover {
   text-shadow: none;
+  font-size: 52px;
 }
 
 a.name-link {
