@@ -195,6 +195,7 @@ a.live-demo:hover {
 img.lang-image {
   width: 30px;
   margin: 0;
+  border-radius: 5px;
 }
 
 section.lang-images {
