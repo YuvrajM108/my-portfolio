@@ -245,6 +245,10 @@ section.lang-images {
     height: 27.5em;
   }
 
+  section.lang-images {
+    width: 10vw;
+  }
+
   .contact-links {
     flex-direction: column;
     align-items: center;
