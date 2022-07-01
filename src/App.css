@@ -196,6 +196,7 @@ img.lang-image {
   width: 30px;
   margin: 0;
   border-radius: 5px;
+  border: solid 2px rgb(74, 200, 250);
 }
 
 section.lang-images {
