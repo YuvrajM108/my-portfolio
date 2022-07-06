@@ -29,7 +29,7 @@ function App() {
         </section>
       </div>
       <div className="project-menu">
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <div className="project-row">
           <Project
             coverImg="./images/todolist.png"
@@ -74,7 +74,7 @@ function App() {
         </div>
       </div>
       <div className="contact">
-        <h1>Contact:</h1>
+        <h2>Contact:</h2>
         <div className="contact-links">
           <a className="contact-link" href="https://www.linkedin.com/in/yuvraj-manoo">
             <img className="contact-logo" alt="linkedin-logo" src="./images/linkedin-logo.png" />
