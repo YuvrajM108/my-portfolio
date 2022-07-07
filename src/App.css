@@ -78,6 +78,11 @@ h1.name,
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h1.projects-heading,
+.contact-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h1.name {
   font-size: 48px;
   text-shadow: 2px 2px 4px #fff;
