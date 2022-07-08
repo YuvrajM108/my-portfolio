@@ -81,6 +81,8 @@ h1.name,
 h1.projects-heading,
 .contact-heading {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: normal;
 }
 
 h1.name {
