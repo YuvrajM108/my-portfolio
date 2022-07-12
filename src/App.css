@@ -19,7 +19,6 @@ img.cover-image {
   width: 100%;
   height: 18em;
   border-bottom: 1px solid;
-  border-radius: 8px 8px 0 0;
 }
 
 section.project-item {
