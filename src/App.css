@@ -2,37 +2,267 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img.cover-image {
+  width: 100%;
+  height: 18em;
+  border-bottom: 1px solid;
+}
+
+section.project-item {
+  border: 1px groove black;
+  border-radius: 8px;
+  width: 40em;
+  height: 27.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: white;
+  transition: border-radius 500ms linear;
+}
+
+section.project-item:hover {
+  box-shadow: 0 0 6px rgb(74, 200, 250);
+  border-radius: 0;
+}
+
+section.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.bio,
+.project-menu {
+  border-bottom: 5px double black;
+}
+
+img.professional-photo {
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  border: 2px solid rgb(35, 135, 173);
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+h1.name,
+.job-title {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1.projects-heading,
+.contact-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1.name {
+  font-size: 48px;
+  text-shadow: 2px 2px 4px #fff;
+  transition: font-size 250ms linear;
+}
+
+h1.name:hover {
+  text-shadow: none;
+  font-size: 52px;
+}
+
+a.name-link {
+  color: black;
+  text-decoration: none;
+}
+
+a.name-link:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+h1.job-title {
+  font-size: 36px;
+}
+
+a.contact-link {
+  width: 12vw;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  margin: 30px;
+  border-radius: 3px;
+}
+
+a.contact-link:hover {
   color: white;
+  box-shadow: 0 0 8px #fff;
 }
 
-.App-link {
-  color: #61dafb;
+img.contact-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+section.what-i-do {
+  margin: 5vh;
+  border: 2px groove black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+p.what-i-do {
+  font-style: italic;
+  font-weight: 500;
+}
+
+span.html {
+  color: darkorange;
+}
+
+span.css {
+  color: #2862e9;
+}
+
+span.js {
+  color: #cbbd11;
+}
+
+span.ror {
+  color: crimson;
+}
+
+span.rr {
+  color: #8400e5;
+}
+
+a.project-title {
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+  margin-top: -20px;
+}
+
+a.project-title:hover {
+  text-shadow: 2px 2px 4px rgb(35, 135, 173);
+  cursor: pointer;
+}
+
+p.project-desc {
+  margin-top: -20px;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+a.live-demo {
+  color: rgb(74, 200, 250);
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 3px;
+  transition: background-color 250ms linear, color 250ms linear;
+}
+
+a.live-demo:hover {
+  font-weight: 500;
+  color: #fff;
+  background-color: rgb(74, 200, 250);
+}
+
+img.lang-image {
+  width: 30px;
+  margin: 0;
+  border-radius: 5px;
+  border: solid 2px rgb(74, 200, 250, 0.5);
+}
+
+section.lang-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 5vw;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+  section.project-item {
+    width: 32em;
+    height: 22em;
   }
-  to {
-    transform: rotate(360deg);
+
+  section.project-item:hover {
+    width: 32.5em;
+    height: 22.5em;
+  }
+
+  img.cover-image {
+    height: 14.4em;
+  }
+
+  img.lang-image {
+    width: 20px;
+  }
+
+  a.project-title,
+  .live-demo {
+    font-size: 12px;
+  }
+
+  p.project-desc {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .project-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.project-item {
+    width: 40em;
+    height: 27.5em;
+  }
+
+  section.lang-images {
+    width: 10vw;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a.contact-link {
+    flex-direction: row;
+    width: 20vw;
   }
 }
