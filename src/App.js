@@ -28,7 +28,7 @@ function App() {
           </p>
         </section>
       </div>
-      <div className="project-menu">
+      <div className="project-menu" id="projects">
         <h1 className="projects-heading">Projects</h1>
         <div className="project-row">
           <Project
@@ -73,7 +73,7 @@ function App() {
           />
         </div>
       </div>
-      <div className="contact">
+      <div className="contact" id="contact">
         <h1 className="contact-heading">Contact:</h1>
         <div className="contact-links">
           <a className="contact-link" href="https://www.linkedin.com/in/yuvraj-manoo">
