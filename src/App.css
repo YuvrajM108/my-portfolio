@@ -212,6 +212,10 @@ section.lang-images {
   width: 5vw;
 }
 
+nav.navbar {
+  display: none;
+}
+
 @media screen and (max-width: 1280px) and (min-width: 900px) {
   section.project-item {
     width: 32em;
