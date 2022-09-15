@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar">
-        <p>Work in progress</p>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </nav>
       <div className="bio">
         <img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" />
