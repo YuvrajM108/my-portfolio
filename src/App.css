@@ -213,7 +213,9 @@ section.lang-images {
 }
 
 nav.navbar {
-  display: none;
+  display: flex;
+  justify-content: space-around;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 1280px) and (min-width: 900px) {
