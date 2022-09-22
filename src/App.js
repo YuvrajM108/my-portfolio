@@ -6,10 +6,11 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar">
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#bio">ABOUT ME</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
       </nav>
-      <div className="bio">
+      <div className="bio" id="bio">
         <img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" />
         <a href="https://github.com/YuvrajM108" className="name-link"><h1 className="name">Yuvraj Manoo</h1></a>
         <h1 className="job-title">Full-Stack Web Developer</h1>
