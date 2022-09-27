@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
 import Project from './components/project/Project';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <nav className="navbar">
-        <a href="#bio" className="navlink">ABOUT ME</a>
-        <a href="#projects" className="navlink">PROJECTS</a>
-        <a href="#contact" className="navlink">CONTACT</a>
-      </nav>
+      <Navbar />
       <div className="bio" id="bio">
         <img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" />
         <a href="https://github.com/YuvrajM108" className="name-link"><h1 className="name">Yuvraj Manoo</h1></a>
