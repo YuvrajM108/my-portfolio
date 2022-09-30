@@ -4,7 +4,7 @@ const Navbar = () => {
   const [about, setAbout] = useState(false);
 
   const showAbout = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 500) {
       setAbout(true);
     } else {
       setAbout(false);
