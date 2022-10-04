@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -226,6 +230,11 @@ a.navlink {
   text-decoration: none;
   opacity: 1;
   cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.navlink:hover {
+  font-weight: bold;
 }
 
 a.hiddenlink {
