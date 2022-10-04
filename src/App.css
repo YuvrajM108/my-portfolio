@@ -225,10 +225,12 @@ a.navlink {
   color: orangered;
   text-decoration: none;
   opacity: 1;
+  cursor: pointer;
 }
 
 a.hiddenlink {
   opacity: 0;
+  cursor: default;
 }
 
 @media screen and (max-width: 1280px) and (min-width: 900px) {
