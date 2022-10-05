@@ -71,7 +71,7 @@ img.professional-photo {
   width: 150px;
   border: 2px solid rgb(35, 135, 173);
   border-radius: 50%;
-  margin: 10px;
+  margin: 25px;
   box-shadow: 5px 5px 5px black;
 }
 
@@ -222,6 +222,7 @@ nav.navbar {
   visibility: hidden;
   position: fixed;
   width: 100%;
+  height: 25px;
   background-color: white;
 }
 
