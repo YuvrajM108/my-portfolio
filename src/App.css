@@ -219,6 +219,7 @@ section.lang-images {
 nav.navbar {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   visibility: hidden;
   position: fixed;
   width: 100%;
