@@ -234,10 +234,12 @@ a.navlink {
   opacity: 1;
   cursor: pointer;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
 }
 
 a.navlink:hover {
   font-weight: bold;
+  background-color: grey;
 }
 
 a.hiddenlink {
