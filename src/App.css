@@ -236,10 +236,10 @@ a.navlink {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 3px;
   border-radius: 3px;
+  font-weight: 500;
 }
 
 a.navlink:hover {
-  font-weight: bold;
   background-color: lightgray;
 }
 
