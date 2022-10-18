@@ -239,8 +239,21 @@ a.navlink {
   font-weight: 500;
 }
 
+a.navlink::before {
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: orangered;
+  transition: width 0.25s ease-out;
+}
+
 a.navlink:hover {
   background-color: lightgray;
+}
+
+a.navlink:hover::before {
+  width: 100%;
 }
 
 a.hiddenlink {
