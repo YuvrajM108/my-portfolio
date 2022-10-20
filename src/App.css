@@ -248,10 +248,6 @@ a.navlink::after {
   transition: width 0.25s ease-in-out;
 }
 
-a.navlink:hover {
-  background-color: lightgray;
-}
-
 a.navlink:hover::after {
   content: '';
   height: 2px;
