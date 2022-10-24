@@ -50,7 +50,9 @@ section.project-info {
 
 .contact-links {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   width: 60vw;
 }
 
