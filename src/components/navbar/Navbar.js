@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <a href={about ? '#bio' : '#'} className={about ? 'navlink' : 'hiddenlink'} onClick={about ? false : true}>ABOUT ME</a>
+      <a href={about ? '#bio' : 'javascript:void(0)'} className={about ? 'navlink' : 'hiddenlink'}>ABOUT ME</a>
       <a href="#projects" className="navlink">PROJECTS</a>
       <a href="#contact" className="navlink">CONTACT</a>
     </nav>
