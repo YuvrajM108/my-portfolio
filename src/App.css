@@ -258,9 +258,11 @@ a.navlink:hover::after {
 }
 
 p.hiddenlink {
-  opacity: 0.1;
+  opacity: 0.001;
   font-size: 16px;
   cursor: default;
+  padding: 3px;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 1280px) and (min-width: 900px) {
