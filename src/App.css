@@ -258,7 +258,7 @@ a.navlink:hover::after {
 }
 
 p.hiddenlink {
-  opacity: 0.001;
+  opacity: 0;
   font-size: 16px;
   cursor: default;
   padding: 3px;
