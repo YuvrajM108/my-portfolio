@@ -48,6 +48,7 @@ Project.propTypes = {
 
 Project.defaultProps = {
   langImgTwo: undefined,
+  langTwoTitle: undefined,
   liveDemo: undefined,
 };
 
