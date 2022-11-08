@@ -36,6 +36,7 @@ function App() {
           <Project
             coverImg="./images/todolist.png"
             langImgOne="./images/js-logo.png"
+            langOneTitle="JavaScript"
             title="Todo List App"
             desc="A JavaScript app that allows
           users to add tasks to a to-do list, edit existing tasks, mark tasks as completed,
@@ -46,6 +47,7 @@ function App() {
           <Project
             coverImg="./images/groups-index-screenshot.png"
             langImgOne="./images/ror-logo.png"
+            langOneTitle="Ruby On Rails"
             title="University Project Time Tracker"
             desc="A Ruby On Rails app that allows a user to keep track of the hours that
           they have spent on specific projects at their university. It also allows them
@@ -58,6 +60,7 @@ function App() {
           <Project
             coverImg="./images/carbon-intensity-home-screenshot.png"
             langImgOne="./images/react-logo.png"
+            langOneTitle="React-Redux"
             title="Carbon Intensity Tracker"
             desc="A simple React application that fetches and displays data about the carbon
           intensity of the various districts in Great Britain."
@@ -68,6 +71,8 @@ function App() {
             coverImg="./images/car-reservations.png"
             langImgOne="./images/react-logo.png"
             langImgTwo="./images/ror-logo.png"
+            langOneTitle="React-Redux"
+            langTwoTitle="Ruby On Rails"
             title="Car Reservation Website"
             desc="A web application with a React front end and a Rails API back end that allows the user to
           add cars to the catalogue, delete cars, and reserve cars."

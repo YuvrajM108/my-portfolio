@@ -5,6 +5,8 @@ const Project = ({
   coverImg,
   langImgOne,
   langImgTwo,
+  langOneTitle,
+  langTwoTitle,
   title,
   desc,
   link,
@@ -15,8 +17,8 @@ const Project = ({
     <section className="project-info">
       {langImgTwo !== undefined ? (
         <section className="lang-images">
-          <img className="lang-image" src={langImgOne} alt="language1" />
-          <img className="lang-image" src={langImgTwo} alt="language2" />
+          <img className="lang-image" src={langImgOne} alt="language1" title={langOneTitle} />
+          <img className="lang-image" src={langImgTwo} alt="language2" title={langTwoTitle} />
         </section>
       ) : (
         <img className="lang-image" src={langImgOne} alt="language" />
@@ -36,6 +38,8 @@ Project.propTypes = {
   coverImg: PropTypes.string.isRequired,
   langImgOne: PropTypes.string.isRequired,
   langImgTwo: PropTypes.string,
+  langOneTitle: PropTypes.string.isRequired,
+  langTwoTitle: PropTypes.string,
   title: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
