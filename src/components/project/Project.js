@@ -17,11 +17,11 @@ const Project = ({
     <section className="project-info">
       {langImgTwo !== undefined ? (
         <section className="lang-images">
-          <img className="lang-image" src={langImgOne} alt="language1" title={langOneTitle} />
-          <img className="lang-image" src={langImgTwo} alt="language2" title={langTwoTitle} />
+          <img title={langOneTitle} className="lang-image" src={langImgOne} alt="language1" />
+          <img title={langTwoTitle} className="lang-image" src={langImgTwo} alt="language2" />
         </section>
       ) : (
-        <img className="lang-image" src={langImgOne} alt="language" />
+        <img title={langOneTitle} className="lang-image" src={langImgOne} alt="language" />
       )}
       <a className="project-title" href={link}><h3>{title}</h3></a>
       <p className="project-desc" title={desc}>{desc}</p>
