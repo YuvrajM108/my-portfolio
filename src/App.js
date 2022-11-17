@@ -68,15 +68,14 @@ function App() {
             liveDemo="https://adoring-pasteur-94aa51.netlify.app/"
           />
           <Project
-            coverImg="./images/car-reservations.png"
+            coverImg="./images/math-magicians-screenshot.png"
             langImgOne="./images/react-logo.png"
-            langImgTwo="./images/ror-logo.png"
             langOneTitle="React-Redux"
-            langTwoTitle="Ruby On Rails"
-            title="Car Reservation Website"
-            desc="A web application with a React front end and a Rails API back end that allows the user to
-          add cars to the catalogue, delete cars, and reserve cars."
-            link="https://github.com/mariordgez/final-capstone-react/"
+            title="Math Magicians"
+            desc="A single page web application with built in React that allows the user to
+          use a calculator and read quotes about mathematics."
+            link="https://github.com/YuvrajM108/math-magicians"
+            liveDemo="https://hungry-mcnulty-b1cbdd.netlify.app/"
           />
         </div>
       </div>
