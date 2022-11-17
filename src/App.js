@@ -53,7 +53,7 @@ function App() {
           they have spent on specific projects at their university. It also allows them
           to group these projects by subject."
             link="https://github.com/YuvrajM108/group-transactions-capstone"
-            liveDemo="https://desolate-ravine-80526.herokuapp.com/"
+            liveDemo="https://group-transactions-capstone-production.up.railway.app/"
           />
         </div>
         <div className="project-row">
