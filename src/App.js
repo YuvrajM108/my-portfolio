@@ -72,7 +72,7 @@ function App() {
             langImgOne="./images/react-logo.png"
             langOneTitle="React-Redux"
             title="Math Magicians"
-            desc="A single page web application with built in React that allows the user to
+            desc="A single page web application built in React that allows the user to
           use a calculator and read quotes about mathematics."
             link="https://github.com/YuvrajM108/math-magicians"
             liveDemo="https://hungry-mcnulty-b1cbdd.netlify.app/"
