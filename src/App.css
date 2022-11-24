@@ -27,18 +27,17 @@ img.cover-image {
 
 section.project-item {
   border: 1px groove black;
-  border-radius: 8px;
   width: 40em;
   height: 27.5em;
   margin-top: 1em;
   margin-bottom: 1em;
   background-color: white;
-  transition: border-radius 500ms linear;
+  transition: box-shadow 500ms linear;
 }
 
 section.project-item:hover {
   box-shadow: 0 0 6px rgb(74, 200, 250);
-  border-radius: 0;
+  border: none;
 }
 
 section.project-info {
