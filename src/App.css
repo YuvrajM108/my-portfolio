@@ -344,7 +344,7 @@ p.hiddenlink {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .project-row {
     flex-direction: column;
     align-items: center;
