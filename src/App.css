@@ -237,7 +237,11 @@ a.navlink {
   padding: 3px;
   border-radius: 3px;
   font-weight: 500;
-  text-shadow: 2px 2px #000;
+  text-shadow: 1px 1px #000;
+}
+
+a.navlink:hover {
+  text-shadow: none;
 }
 
 a.navlink::after {
