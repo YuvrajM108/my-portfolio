@@ -244,6 +244,7 @@ a.navlink {
 
 a.navlink:hover {
   text-shadow: none;
+  box-shadow: none;
 }
 
 a.navlink::after {
