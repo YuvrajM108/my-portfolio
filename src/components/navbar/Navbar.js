@@ -25,7 +25,7 @@ const Navbar = () => {
       </nav>
     )
       : (
-      <nav className="navbar">
+        <nav className="navbar">
           {
             about === 2 ? <a href="#bio" className="navlink">ABOUT ME</a>
               : <p className="hiddenlink">ABOUT ME</p>
