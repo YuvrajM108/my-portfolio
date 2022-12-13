@@ -24,14 +24,14 @@ const Navbar = () => {
         <a href="#contact" className="navlink">CONTACT</a>
       </nav>
     )
-    : (
-        <nav className="navbar">
+      : (
+      <nav className="navbar">
           {
             about === 2 ? <a href="#bio" className="navlink">ABOUT ME</a>
-            : <p className="hiddenlink">ABOUT ME</p>
+              : <p className="hiddenlink">ABOUT ME</p>
           }
-        <a href="#projects" className="navlink">PROJECTS</a>
-        <a href="#contact" className="navlink">CONTACT</a>
+          <a href="#projects" className="navlink">PROJECTS</a>
+          <a href="#contact" className="navlink">CONTACT</a>
         </nav>
       )
   );
