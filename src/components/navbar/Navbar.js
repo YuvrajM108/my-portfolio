@@ -13,7 +13,6 @@ const Navbar = () => {
       setAbout(0);
     }
   }
-};
 
   window.addEventListener('scroll', showAbout);
 
@@ -32,5 +31,8 @@ const Navbar = () => {
         <a href="#contact" className="navlink">CONTACT</a>
       </nav>
   );
+};
+
+  
 
 export default Navbar;
