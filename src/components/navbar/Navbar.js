@@ -23,16 +23,16 @@ const Navbar = () => {
         <a href="#projects" className="navlink">PROJECTS</a>
         <a href="#contact" className="navlink">CONTACT</a>
       </nav>
-      ) :
-      (
-      <nav className="navbar">
-        {
-          about === 2 ? <a href="#bio" className="navlink">ABOUT ME</a>
-          : <p className="hiddenlink">ABOUT ME</p>
-        }
-          <a href="#projects" className="navlink">PROJECTS</a>
-          <a href="#contact" className="navlink">CONTACT</a>
-      </nav>
+    )
+    : (
+        <nav className="navbar">
+          {
+            about === 2 ? <a href="#bio" className="navlink">ABOUT ME</a>
+            : <p className="hiddenlink">ABOUT ME</p>
+          }
+        <a href="#projects" className="navlink">PROJECTS</a>
+        <a href="#contact" className="navlink">CONTACT</a>
+        </nav>
       )
   );
 };
