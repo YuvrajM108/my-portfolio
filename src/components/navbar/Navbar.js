@@ -7,7 +7,7 @@ const Navbar = () => {
     if (window.scrollY >= 50) {
       setAbout(1);
     }
-    else if (window.scrollY >= 500) {
+    if (window.scrollY >= 500) {
       setAbout(2);
     } else {
       setAbout(0);
