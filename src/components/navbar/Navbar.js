@@ -4,10 +4,9 @@ const Navbar = () => {
   const [about, setAbout] = useState(0);
 
   const showAbout = () => {
-    if (window.scrollY >= 50) {
+    if (window.scrollY >= 50 && window.scrollY < 500) {
       setAbout(1);
-    }
-    if (window.scrollY >= 500) {
+    } else if (window.scrollY >= 500) {
       setAbout(2);
     } else {
       setAbout(0);
