@@ -250,6 +250,8 @@ a.navlink {
   text-shadow: 1px 1px #000;
   box-shadow: 0 0 3px;
   transition: text-shadow 0.25s linear;
+  animation: navlinks 2.5s;
+  animation-iteration-count: 1;
 }
 
 a.navlink:hover {
@@ -280,6 +282,11 @@ p.hiddenlink {
   cursor: default;
   padding: 3px;
   font-weight: 500;
+}
+
+@keyframes navlinks {
+  from {transform: scale(0.25);}
+  to {transform: scale(1);}
 }
 
 @media screen and (max-width: 1280px) and (min-width: 900px) {
