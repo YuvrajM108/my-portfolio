@@ -284,7 +284,10 @@ p.hiddenlink {
   font-weight: 500;
 }
 
-@keyframes navlinks { from {transform: scale(0.25);} to {transform: scale(1); } }
+@keyframes navlinks {
+  from { transform: scale(0.25); }
+  to { transform: scale(1); }
+}
 
 @media screen and (max-width: 1280px) and (min-width: 900px) {
   section.project-item {
