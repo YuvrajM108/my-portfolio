@@ -303,6 +303,7 @@ p.hiddenlink {
     transform: translateX(100px);
     opacity: 0.1;
   }
+
   100% {
     transform: translateX(0);
     opacity: 1;
