@@ -300,7 +300,7 @@ p.hiddenlink {
 
 @keyframes rise {
   0% {
-    transform: translateY(-50px);
+    transform: translateY(50px);
   }
 
   100% {
