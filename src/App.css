@@ -105,6 +105,8 @@ h1.name:hover {
 a.name-link {
   color: black;
   text-decoration: none;
+  animation: name-title 1.5s;
+  animation-iteration-count: 1;
 }
 
 a.name-link:hover {
@@ -116,6 +118,8 @@ a.name-link:hover {
 
 h1.job-title {
   font-size: 36px;
+  animation: name-title 1.5s;
+  animation-iteration-count: 1;
 }
 
 a.contact-link {
@@ -306,6 +310,11 @@ p.hiddenlink {
   100% {
     transform: translateY(0);
   }
+}
+
+@keyframes name-title {
+  from { opacity: 0.01; }
+  to { opacity: 1; }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 900px) {
