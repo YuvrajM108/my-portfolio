@@ -105,7 +105,7 @@ h1.name:hover {
 a.name-link {
   color: black;
   text-decoration: none;
-  animation: name-title 1.5s;
+  animation: fade 1.5s;
   animation-iteration-count: 1;
 }
 
@@ -118,7 +118,7 @@ a.name-link:hover {
 
 h1.job-title {
   font-size: 36px;
-  animation: name-title 1.5s;
+  animation: fade 1.5s;
   animation-iteration-count: 1;
 }
 
@@ -150,6 +150,8 @@ section.what-i-do {
   border-radius: 8px;
   background-color: white;
   box-shadow: 0 0 5px black;
+  animation: fade 2s;
+  animation-iteration-count: 1;
 }
 
 p.what-i-do {
@@ -312,7 +314,7 @@ p.hiddenlink {
   }
 }
 
-@keyframes name-title {
+@keyframes fade {
   from { opacity: 0.01; }
   to { opacity: 1; }
 }
