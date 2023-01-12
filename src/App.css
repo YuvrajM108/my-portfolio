@@ -33,6 +33,8 @@ section.project-item {
   margin-bottom: 1em;
   background-color: white;
   transition: box-shadow 1s linear;
+  animation: navlinks 1s;
+  animation-iteration-count: 1;
 }
 
 section.project-item:hover {
