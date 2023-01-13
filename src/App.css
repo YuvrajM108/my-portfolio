@@ -91,6 +91,8 @@ h1.projects-heading,
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-weight: normal;
+  animation: fade 0.5s;
+  animation-iteration-count: 1;
 }
 
 h1.name {
