@@ -161,6 +161,8 @@ section.what-i-do {
 p.what-i-do {
   font-style: italic;
   font-weight: 500;
+  animation: rise 2s;
+  animation-iteration-count: 1;
 }
 
 span.html {
