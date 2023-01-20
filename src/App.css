@@ -161,7 +161,7 @@ section.what-i-do {
 p.what-i-do {
   font-style: italic;
   font-weight: 500;
-  animation: rise 2s;
+  animation: lowrise 2s;
   animation-iteration-count: 1;
 }
 
@@ -313,6 +313,16 @@ p.hiddenlink {
 @keyframes rise {
   0% {
     transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes lowrise {
+  0% {
+    transform: translateY(15px);
   }
 
   100% {
