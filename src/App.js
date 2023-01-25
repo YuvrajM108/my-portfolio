@@ -40,7 +40,7 @@ function App() {
             title="Todo List App"
             desc="A JavaScript app that allows
           users to add tasks to a to-do list, edit existing tasks, mark tasks as completed,
-          and delete existing tasks."
+          delete all completed tasks, and delete individual tasks."
             link="https://github.com/YuvrajM108/js-to-do-list"
             liveDemo="https://yuvrajm108.github.io/js-to-do-list/index.html"
           />
