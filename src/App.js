@@ -34,7 +34,7 @@ function App() {
         <h1 className="projects-heading">Projects</h1>
         <div className="project-row">
           <Project
-            coverImg="./images/todolist.png"
+            coverImg="./images/todo-list-screenshot.png"
             langImgOne="./images/js-logo.png"
             langOneTitle="JavaScript"
             title="Todo List App"
