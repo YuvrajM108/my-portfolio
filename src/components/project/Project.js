@@ -25,7 +25,11 @@ const Project = ({
 
   return (
     <section className="project-item">
-      <a href={link}><img className="cover-image" src={previewed ? previewGif : coverImg} alt={`${title} project thumbnail`} /></a>
+      {previewGif !== undefined ? (
+        <a href={link}><img className="cover-image" src={previewed ? previewGif : coverImg} alt={`${title} project thumbnail`} /></a>
+      ) : (
+        <a href={link}><img className="cover-image" src={coverImg} alt={`${title} project thumbnail`} /></a>
+      )}
       <section className="project-info">
         {langImgTwo !== undefined ? (
           <section className="lang-images">
@@ -37,7 +41,7 @@ const Project = ({
         )}
         <a className="project-title" href={link}><h3>{title}</h3></a>
         <p className="project-desc" title={desc}>{desc}</p>
-        {liveDemo !== undefined ? (
+        {liveDemo !== undefined && previewGif !== undefined ? (
           <a className="live-demo" href={liveDemo} onMouseEnter={handleMouseEnter()} onMouseLeave={handleMouseLeave()}>Live Demo</a>
         ) : (
           <br />
