@@ -15,13 +15,13 @@ const Project = ({
 }) => {
   const [previewed, setPreviewed] = useState(false);
 
-  const handleMouseEnter = () => {
+  const handleMouseEnter = (() => {
     setPreviewed(true);
-  };
+  }, []);
 
-  const handleMouseLeave = () => {
+  const handleMouseLeave = (() => {
     setPreviewed(false);
-  };
+  }, []);
 
   return (
     <section className="project-item">
