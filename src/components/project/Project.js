@@ -15,14 +15,6 @@ const Project = ({
 }) => {
   const [previewed, setPreviewed] = useState(false);
 
-  const handleMouseEnter = (() => {
-    setPreviewed(true);
-  }, []);
-
-  const handleMouseLeave = (() => {
-    setPreviewed(false);
-  }, []);
-
   return (
     <section className="project-item">
       {previewGif !== undefined ? (
@@ -42,7 +34,7 @@ const Project = ({
         <a className="project-title" href={link}><h3>{title}</h3></a>
         <p className="project-desc" title={desc}>{desc}</p>
         {liveDemo !== undefined && previewGif !== undefined ? (
-          <a className="live-demo" href={liveDemo} onMouseEnter={handleMouseEnter()} onMouseLeave={handleMouseLeave()}>Live Demo</a>
+          <a className="live-demo" href={liveDemo} onMouseEnter={() => setPreviewed(true)} onMouseLeave={() => setPreviewed(false)}>Live Demo</a>
         ) : (
           <br />
         )}
