@@ -21,7 +21,7 @@ const Project = ({
 
   const handleMouseLeave = () => {
     setPreviewed(false);
-  }
+  };
 
   return (
     <section className="project-item">
@@ -45,7 +45,7 @@ const Project = ({
       </section>
     </section>
   );
-}
+};
 
 Project.propTypes = {
   coverImg: PropTypes.string.isRequired,
