@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 const Project = ({
@@ -11,28 +11,41 @@ const Project = ({
   desc,
   link,
   liveDemo,
-}) => (
-  <section className="project-item">
-    <a href={link}><img className="cover-image" src={coverImg} alt={`${title} project thumbnail`} /></a>
-    <section className="project-info">
-      {langImgTwo !== undefined ? (
-        <section className="lang-images">
-          <img title={langOneTitle} className="lang-image" src={langImgOne} alt="language1" />
-          <img title={langTwoTitle} className="lang-image" src={langImgTwo} alt="language2" />
-        </section>
-      ) : (
-        <img title={langOneTitle} className="lang-image" src={langImgOne} alt="language" />
-      )}
-      <a className="project-title" href={link}><h3>{title}</h3></a>
-      <p className="project-desc" title={desc}>{desc}</p>
-      {liveDemo !== undefined ? (
-        <a className="live-demo" href={liveDemo}>Live Demo</a>
-      ) : (
-        <br />
-      )}
+  previewGif,
+}) => {
+  const [previewed, setPreviewed] = useState(false);
+
+  const handleMouseEnter = () => {
+    setPreviewed(true);
+  };
+
+  const handleMouseLeave = () => {
+    setPreviewed(false);
+  }
+
+  return (
+    <section className="project-item">
+      <a href={link}><img className="cover-image" src={previewed ? previewGif : coverImg} alt={`${title} project thumbnail`} /></a>
+      <section className="project-info">
+        {langImgTwo !== undefined ? (
+          <section className="lang-images">
+            <img title={langOneTitle} className="lang-image" src={langImgOne} alt="language1" />
+            <img title={langTwoTitle} className="lang-image" src={langImgTwo} alt="language2" />
+          </section>
+        ) : (
+          <img title={langOneTitle} className="lang-image" src={langImgOne} alt="language" />
+        )}
+        <a className="project-title" href={link}><h3>{title}</h3></a>
+        <p className="project-desc" title={desc}>{desc}</p>
+        {liveDemo !== undefined ? (
+          <a className="live-demo" href={liveDemo} onMouseEnter={handleMouseEnter()} onMouseLeave={handleMouseLeave()}>Live Demo</a>
+        ) : (
+          <br />
+        )}
+      </section>
     </section>
-  </section>
-);
+  );
+}
 
 Project.propTypes = {
   coverImg: PropTypes.string.isRequired,
@@ -44,12 +57,14 @@ Project.propTypes = {
   desc: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   liveDemo: PropTypes.string,
+  previewGif: PropTypes.string,
 };
 
 Project.defaultProps = {
   langImgTwo: undefined,
   langTwoTitle: undefined,
   liveDemo: undefined,
+  previewGif: undefined,
 };
 
 export default Project;

@@ -43,6 +43,7 @@ function App() {
           delete all completed tasks, and delete individual tasks."
             link="https://github.com/YuvrajM108/js-to-do-list"
             liveDemo="https://yuvrajm108.github.io/js-to-do-list/index.html"
+            previewGif="./images/todo-list-preview.gif"
           />
           <Project
             coverImg="./images/groups-index-screenshot.png"
@@ -65,6 +66,7 @@ function App() {
           intensity of the various districts in Great Britain."
             link="https://github.com/YuvrajM108/carbon-intensity-app-capstone"
             liveDemo="https://adoring-pasteur-94aa51.netlify.app/"
+            previewGif="./images/carbon-intensity-tracker-preview.gif"
           />
           <Project
             coverImg="./images/math-magicians-screenshot.png"
@@ -75,6 +77,7 @@ function App() {
           use a calculator and read quotes about mathematics."
             link="https://github.com/YuvrajM108/math-magicians"
             liveDemo="https://hungry-mcnulty-b1cbdd.netlify.app/"
+            previewGif="./images/math-magicians-preview.gif"
           />
         </div>
       </div>
