@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 const Project = ({
@@ -14,6 +14,15 @@ const Project = ({
   previewGif,
 }) => {
   const [previewed, setPreviewed] = useState(false);
+
+  useEffect(() => {
+    if(previewed) {
+      setPreviewed(false);
+    }
+    else {
+      setPreviewed(true);
+    }
+  });
 
   return (
     <section className="project-item">
@@ -34,7 +43,7 @@ const Project = ({
         <a className="project-title" href={link}><h3>{title}</h3></a>
         <p className="project-desc" title={desc}>{desc}</p>
         {liveDemo !== undefined && previewGif !== undefined ? (
-          <a className="live-demo" href={liveDemo} onMouseEnter={() => setPreviewed(true)} onMouseLeave={() => setPreviewed(false)}>Live Demo</a>
+          <a className="live-demo" href={liveDemo} onMouseEnter={() => useEffect()} onMouseLeave={() => useEffect()}>Live Demo</a>
         ) : (
           <br />
         )}
