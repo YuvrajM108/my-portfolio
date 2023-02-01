@@ -16,10 +16,9 @@ const Project = ({
   const [previewed, setPreviewed] = useState(false);
 
   useEffect(() => {
-    if(previewed) {
+    if (previewed) {
       setPreviewed(false);
-    }
-    else {
+    } else {
       setPreviewed(true);
     }
   });
