@@ -21,7 +21,7 @@ const Project = ({
     } else {
       setPreviewed(true);
     }
-  });
+  }, []);
 
   return (
     <section className="project-item">
