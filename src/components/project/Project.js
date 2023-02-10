@@ -22,10 +22,10 @@ const Project = ({
   return (
     <section className="project-item">
       {previewed ? (
-          <a href={link}><img className="cover-image" src={previewGif} alt={`${title} project thumbnail`} /></a>
-        ) : (
-          <a href={link}><img className="cover-image" src={coverImg} alt={`${title} project thumbnail`} /></a>
-        )}
+        <a href={link}><img className="cover-image" src={previewGif} alt={`${title} project thumbnail`} /></a>
+      ) : (
+        <a href={link}><img className="cover-image" src={coverImg} alt={`${title} project thumbnail`} /></a>
+      )}
       <section className="project-info">
         {langImgTwo !== undefined ? (
           <section className="lang-images">
