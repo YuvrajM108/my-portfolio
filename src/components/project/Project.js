@@ -16,7 +16,7 @@ const Project = ({
   const [previewed, setPreviewed] = useState(false);
 
   return (
-    <section className="project-item" onMouseEnter={() => setPreviewed(true)} onMouseLeave={() => setPreviewed(false)}>
+    <section className="project-item" onMouseEnter={liveDemo !== null ? () => setPreviewed(true) : () => setPreviewed(false)} onMouseLeave={() => setPreviewed(false)}>
       {previewed ? (
         <a href={link}><img className="cover-image" src={previewGif} alt={`${title} project thumbnail`} /></a>
       ) : (
