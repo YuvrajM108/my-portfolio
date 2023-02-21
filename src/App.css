@@ -100,7 +100,7 @@ h1.name {
   font-size: 48px;
   text-shadow: 2px 2px 4px #fff;
   transition: font-size 250ms linear;
-  width: 50%;
+  width: 30%;
 }
 
 h1.name:hover {
