@@ -91,7 +91,7 @@ h1.name,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 
 h1.projects-heading,
