@@ -87,6 +87,13 @@ h1.name,
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.projects-headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
 h1.projects-heading,
 .contact-heading {
   font-family: Arial, Helvetica, sans-serif;
@@ -94,6 +101,11 @@ h1.projects-heading,
   font-weight: normal;
   animation: fade 0.5s;
   animation-iteration-count: 1;
+}
+
+h3.preview-note {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 h1.name {

@@ -31,7 +31,10 @@ function App() {
         </section>
       </div>
       <div className="project-menu" id="projects">
-        <h1 className="projects-heading">Projects</h1>
+        <div className="projects-headings">
+          <h1 className="projects-heading">Projects</h1>
+          <h3 className="preview-note">Hover the cursor over a project to see its live demo.</h3>
+        </div>
         <div className="project-row">
           <Project
             coverImg="./images/todo-list-screenshot.png"
