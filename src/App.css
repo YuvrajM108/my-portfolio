@@ -103,9 +103,14 @@ h1.projects-heading,
   animation-iteration-count: 1;
 }
 
+h1.projects-heading {
+  margin-bottom: 0;
+}
+
 h3.preview-note {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  margin-top: 5px;
 }
 
 h1.name {
