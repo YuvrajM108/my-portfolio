@@ -448,7 +448,12 @@ p.hiddenlink {
 
   section.project-item {
     width: 20em;
-    height: 31.5em;
+    height: 23em;
+  }
+
+  img.cover-image {
+    height: 10em;
+    width: 18em;
   }
 
   section.lang-images {
