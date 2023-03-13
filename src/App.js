@@ -14,7 +14,7 @@ function App() {
         <section className="what-i-do">
           <h2>What I Do:</h2>
           <p className="what-i-do">
-            I build dynamic web applications using a variety of front-end and back-end technologies
+            I am a front-end oriented developer who builds dynamic web applications using a variety of technologies
             such as
             <span className="html"> HTML</span>
             ,
