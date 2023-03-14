@@ -27,6 +27,8 @@ function App() {
             and
             <span className="rr"> React Redux</span>
             .
+            With over one year of experience, I have worked on dozens of projects both individually
+            and in collaboration with other developers. Some of my best projects can be seen below.
           </p>
         </section>
       </div>
