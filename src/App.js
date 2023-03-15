@@ -55,7 +55,7 @@ function App() {
             langImgOne="./images/ror-logo.png"
             langOneTitle="Ruby On Rails"
             title="University Project Time Tracker"
-            desc="A Ruby On Rails app that allows a user to keep track of the hours that
+            desc="A Ruby On Rails app that allows a student user to keep track of the hours that
           they have spent on specific projects at their university. It also allows them
           to group these projects by subject."
             link="https://github.com/YuvrajM108/group-transactions-capstone"
