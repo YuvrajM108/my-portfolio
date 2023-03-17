@@ -89,6 +89,7 @@ function App() {
       </div>
       <div className="contact" id="contact">
         <h1 className="contact-heading">Contact:</h1>
+        <h3 className="preview-note">Get in touch and let's work together!</h3>
         <div className="contact-links">
           <a className="contact-link" href="https://www.linkedin.com/in/yuvraj-manoo">
             <img className="contact-logo" alt="linkedin-logo" src="./images/linkedin-logo.png" />
