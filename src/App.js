@@ -9,8 +9,11 @@ function App() {
       <Navbar />
       <div className="bio" id="bio">
         <img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" />
-        <a title="Visit my GitHub profile!" href="https://github.com/YuvrajM108"
-        className="name-link">
+        <a 
+          title="Visit my GitHub profile!"
+          href="https://github.com/YuvrajM108"
+          className="name-link"
+        >
           <h1 className="name">Yuvraj Manoo</h1>
         </a>
         <h1 className="job-title">Full-Stack Web Developer</h1>
