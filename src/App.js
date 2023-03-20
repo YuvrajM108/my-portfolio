@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <div className="bio" id="bio">
         <img className="professional-photo" src="./images/professional-photo.jpg" alt="avatar" />
-        <a 
+        <a
           title="Visit my GitHub profile!"
           href="https://github.com/YuvrajM108"
           className="name-link"
@@ -95,7 +95,7 @@ function App() {
       </div>
       <div className="contact" id="contact">
         <h1 className="contact-heading">Contact:</h1>
-        <h3 className="preview-note">Get in touch and let's work together!</h3>
+        <h3 className="preview-note">Get in touch and let us work together!</h3>
         <div className="contact-links">
           <a className="contact-link" href="https://www.linkedin.com/in/yuvraj-manoo">
             <img className="contact-logo" alt="linkedin-logo" src="./images/linkedin-logo.png" />
