@@ -233,6 +233,7 @@ a.live-demo {
   border-radius: 3px;
   padding: 3px;
   transition: background-color 250ms linear, color 250ms linear;
+  margin-bottom: 3px;
 }
 
 a.live-demo:hover {
