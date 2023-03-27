@@ -227,6 +227,7 @@ p.project-desc {
   word-wrap: break-word;
   text-overflow: ellipsis;
   overflow: hidden;
+  font-family: 'circular';
 }
 
 a.live-demo {
