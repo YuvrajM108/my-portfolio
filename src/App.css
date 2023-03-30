@@ -217,7 +217,7 @@ a.project-title {
 }
 
 a.project-title:hover {
-  text-shadow: 2px 2px 4px rgb(35, 135, 173);
+  box-shadow: 0 0 3px rgb(35, 135, 173);
   cursor: pointer;
 }
 
