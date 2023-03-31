@@ -217,7 +217,8 @@ a.project-title {
 }
 
 a.project-title:hover {
-  box-shadow: 0 0 3px rgb(35, 135, 173);
+  text-decoration: underline; 
+  text-decoration-color: rgb(35, 135, 173);
   cursor: pointer;
 }
 
