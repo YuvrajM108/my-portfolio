@@ -171,6 +171,10 @@ img.contact-logo {
   margin-right: 5px;
 }
 
+p.contact-text {
+  font-family: 'circular';
+}
+
 section.what-i-do {
   margin: 5vh;
   border: 1px groove black;
