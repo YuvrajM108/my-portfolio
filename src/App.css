@@ -161,8 +161,7 @@ a.contact-link {
 }
 
 a.contact-link:hover {
-  color: white;
-  box-shadow: 0 0 8px #fff;
+  box-shadow: 0 0 8px #000;
 }
 
 img.contact-logo {
