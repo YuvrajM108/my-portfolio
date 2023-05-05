@@ -22,7 +22,7 @@ html {
 img.cover-image {
   width: 100%;
   height: 18em;
-  border-bottom: 1px black solid;
+  border-bottom: 3px black groove;
 }
 
 section.project-item {
