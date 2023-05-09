@@ -184,7 +184,7 @@ section.what-i-do {
   margin: 5vh;
   border: 1px groove black;
   border-radius: 8px;
-  background-color: white;
+  background-color: #eaebef;
   box-shadow: 0 0 5px black;
   animation: fade 2s;
   animation-iteration-count: 1;
