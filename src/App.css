@@ -41,6 +41,7 @@ section.project-item {
 section.project-item:hover {
   box-shadow: 0 0 6px rgb(74, 200, 250);
   border: none;
+  background-color: #fff;
 }
 
 section.project-info {
