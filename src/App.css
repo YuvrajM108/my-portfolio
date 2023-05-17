@@ -159,6 +159,7 @@ a.contact-link {
   text-decoration: none;
   margin: 30px;
   border-radius: 3px;
+  transition: box-shadow 0.5s linear;
 }
 
 a.contact-link:hover {
