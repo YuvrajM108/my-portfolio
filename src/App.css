@@ -51,6 +51,12 @@ section.project-info {
   align-items: center;
 }
 
+section.projectone {
+  height: 18em;
+  border-bottom: 3px black groove;
+  background-image: ('./images/todo-list-screenshot.png');
+}
+
 .contact-links {
   display: flex;
   flex-direction: column;
