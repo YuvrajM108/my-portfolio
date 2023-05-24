@@ -57,6 +57,10 @@ section.projectone {
   background-image: ('./images/todo-list-screenshot.png');
 }
 
+section.projectone:hover {
+  background-image: ('./images/todo-list-preview.gif');
+}
+
 .contact-links {
   display: flex;
   flex-direction: column;
