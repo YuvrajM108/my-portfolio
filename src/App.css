@@ -67,6 +67,10 @@ section.projecttwo {
   background-image: ('./images/carbon-intensity-home-screenshot.png');
 }
 
+section.projecttwo:hover {
+  background-image: ('./images/carbon-intensity-tracker-preview.gif');
+}
+
 .contact-links {
   display: flex;
   flex-direction: column;
