@@ -71,6 +71,12 @@ section.projecttwo:hover {
   background-image: ('./images/carbon-intensity-tracker-preview.gif');
 }
 
+section.projectthree {
+  height: 18em;
+  border-bottom: 3px black groove;
+  background-image: ('./images/math-magicians-screenshot.png');
+}
+
 .contact-links {
   display: flex;
   flex-direction: column;
