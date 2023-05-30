@@ -77,6 +77,10 @@ section.projectthree {
   background-image: ('./images/math-magicians-screenshot.png');
 }
 
+section.projectthree:hover {
+  background-image: ('./images/math-magicians-preview.gif');
+}
+
 .contact-links {
   display: flex;
   flex-direction: column;
