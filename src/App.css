@@ -147,7 +147,7 @@ h3.preview-note {
 h1.name {
   font-size: 48px;
   text-shadow: 2px 2px 4px #fff;
-  transition: font-size 250ms linear;
+  transition: font-size 250ms linear, box-shadow 250ms liner;
   width: 30%;
   border-radius: 5px;
 }
