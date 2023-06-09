@@ -68,7 +68,7 @@ img.projecttwo {
   background-image: ('./images/carbon-intensity-home-screenshot.png');
 }
 
-section.projecttwo:hover {
+img.projecttwo:hover {
   background-image: ('./images/carbon-intensity-tracker-preview.gif');
 }
 
