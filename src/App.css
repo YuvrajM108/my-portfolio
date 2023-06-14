@@ -55,11 +55,11 @@ img.projectone {
   width: 100%;
   height: 18em;
   border-bottom: 3px black groove;
-  background-image: ('../public/images/todo-list-screenshot.png');
+  background-image: ('/todo-list-screenshot.png');
 }
 
 img.projectone:hover {
-  background-image: ('./images/todo-list-preview.gif');
+  background-image: ('/todo-list-preview.gif');
 }
 
 img.projecttwo {
