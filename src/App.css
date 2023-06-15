@@ -65,7 +65,7 @@ img.projectone:hover {
 img.projecttwo {
   height: 18em;
   border-bottom: 3px black groove;
-  background-image: ('./images/carbon-intensity-home-screenshot.png');
+  background-image: ('/carbon-intensity-home-screenshot.png');
 }
 
 img.projecttwo:hover {
