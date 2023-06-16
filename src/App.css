@@ -69,7 +69,7 @@ img.projecttwo {
 }
 
 img.projecttwo:hover {
-  background-image: ('./images/carbon-intensity-tracker-preview.gif');
+  background-image: ('/carbon-intensity-tracker-preview.gif');
 }
 
 img.projectthree {
