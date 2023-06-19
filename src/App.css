@@ -78,7 +78,7 @@ img.projectthree {
   background-image: ('./images/math-magicians-screenshot.png');
 }
 
-section.projectthree:hover {
+img.projectthree:hover {
   background-image: ('./images/math-magicians-preview.gif');
 }
 
