@@ -58,7 +58,7 @@ section.projectone {
   background-image: ('/todo-list-screenshot.png');
 }
 
-img.projectone:hover {
+section.projectone:hover {
   background-image: ('/todo-list-preview.gif');
 }
 
