@@ -62,7 +62,7 @@ section.projectone:hover {
   background-image: ('/todo-list-preview.gif');
 }
 
-img.projecttwo {
+section.projecttwo {
   height: 18em;
   border-bottom: 3px black groove;
   background-image: ('/carbon-intensity-home-screenshot.png');
