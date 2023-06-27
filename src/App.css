@@ -72,7 +72,7 @@ section.projecttwo:hover {
   background-image: ('/carbon-intensity-tracker-preview.gif');
 }
 
-img.projectthree {
+section.projectthree {
   height: 18em;
   border-bottom: 3px black groove;
   background-image: ('/math-magicians-screenshot.png');
