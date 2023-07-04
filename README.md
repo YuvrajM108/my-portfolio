@@ -1,5 +1,7 @@
 # YuvrajM108 Portfolio
 
+This is my personal web development portfolio.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
