@@ -79,7 +79,7 @@ section.projectthree {
 }
 
 section.projectthree:hover {
-  background-image: ('./images/math-magicians-preview.gif');
+  background-image: ('/images/math-magicians-preview.gif');
 }
 
 .contact-links {
