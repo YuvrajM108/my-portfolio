@@ -59,7 +59,7 @@ section.projectone {
 }
 
 section.projectone:hover {
-  background-image: url('/images/todo-list-preview.gif');
+  background-image: url('/public/images/todo-list-preview.gif');
 }
 
 section.projecttwo {
