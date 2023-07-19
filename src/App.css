@@ -65,7 +65,7 @@ section.projectone:hover {
 section.projecttwo {
   height: 18em;
   border-bottom: 3px black groove;
-  background-image: ('/images/carbon-intensity-home-screenshot.png');
+  background-image: url('/public/images/carbon-intensity-home-screenshot.png');
 }
 
 section.projecttwo:hover {
