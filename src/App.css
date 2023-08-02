@@ -77,7 +77,8 @@ section.projecttwo:hover {
 section.projectthree {
   height: 18em;
   border-bottom: 3px black groove;
-  background-image: url('/public/images/math-magicians-screenshot.png');
+  background-image: url('/images/math-magicians-screenshot.png');
+  background-size: contain;
 }
 
 section.projectthree:hover {
