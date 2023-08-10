@@ -61,7 +61,7 @@ section.projectone {
 
 section.projectone:hover {
   background-image: url('/images/todo-list-preview.gif');
-  background-size: contain;
+  background-size: 512px 233.39px;
 }
 
 section.projecttwo {
