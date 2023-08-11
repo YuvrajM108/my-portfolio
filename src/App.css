@@ -68,7 +68,7 @@ section.projecttwo {
   height: 18em;
   border-bottom: 3px black groove;
   background-image: url('/images/carbon-intensity-home-screenshot.png');
-  background-size: contain;
+  background-size: 512px 233.39px;
 }
 
 section.projecttwo:hover {
