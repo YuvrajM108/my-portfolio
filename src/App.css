@@ -56,7 +56,8 @@ section.projectone {
   height: 18em;
   border-bottom: 3px black groove;
   background-image: url('/images/todo-list-screenshot.png');
-  background-size: 512px 233.39px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 section.projectone:hover {
