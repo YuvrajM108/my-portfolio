@@ -76,7 +76,8 @@ section.projecttwo {
 
 section.projecttwo:hover {
   background-image: url('/images/carbon-intensity-tracker-preview.gif');
-  background-size: 512px 233.39px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 section.projectthree {
