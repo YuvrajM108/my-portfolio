@@ -82,6 +82,7 @@ section.projecttwo:hover {
 }
 
 section.projectthree {
+  width: 100%;
   height: 18em;
   border-bottom: 3px black groove;
   background-image: url('/images/math-magicians-screenshot.png');
