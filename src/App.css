@@ -93,6 +93,7 @@ section.projectthree {
 }
 
 section.projectthree:hover {
+  width: 100%;
   background-image: url('/images/math-magicians-preview.gif');
   background-repeat: no-repeat;
   background-size: 100% 100%;
