@@ -396,7 +396,7 @@ p.hiddenlink {
 
 @keyframes navbar {
   from { background-color: #e0c4a9; }
-  to { background-color: #1f3b56; }
+  to { background-color: #222; }
 }
 
 @keyframes rise {
