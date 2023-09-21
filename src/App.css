@@ -302,7 +302,7 @@ a.live-demo {
 a.live-demo:hover {
   font-weight: 500;
   color: #fff;
-  background-color: rgb(74, 200, 250);
+  background-color: rgb(250, 74, 74);
 }
 
 img.lang-image {
