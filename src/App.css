@@ -297,6 +297,7 @@ a.live-demo {
   padding: 3px;
   transition: background-color 250ms linear, color 250ms linear;
   margin-bottom: 3px;
+  font-weight: 200;
 }
 
 a.live-demo:hover {
