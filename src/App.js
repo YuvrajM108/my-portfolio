@@ -42,7 +42,7 @@ function App() {
       <div className="project-menu" id="projects">
         <div className="projects-headings">
           <h1 className="projects-heading">Projects</h1>
-          <h3 className="preview-note">Hover the cursor over a project to see its live demo!</h3>
+          <h3 className="preview-note">Hover the cursor over a project to preview its live demo!</h3>
         </div>
         <div className="project-row">
           <Project
