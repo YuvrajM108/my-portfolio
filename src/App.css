@@ -298,6 +298,7 @@ a.live-demo {
   transition: background-color 250ms linear, color 250ms linear;
   margin-bottom: 3px;
   font-weight: 450;
+  font-style: oblique;
 }
 
 a.live-demo:hover {
