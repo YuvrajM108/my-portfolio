@@ -364,7 +364,7 @@ a.navlink {
 a.navlink:hover {
   text-shadow: none;
   box-shadow: none;
-  color: white;
+  color: rgb(29, 28, 28);
 }
 
 a.navlink::after {
