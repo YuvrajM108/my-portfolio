@@ -330,7 +330,7 @@ nav.navbar {
   width: 100%;
   height: 50px;
   background-color: #0581eb;
-  animation: navbar 0.5s;
+  animation: navbar 0.75s;
   animation-iteration-count: 1;
 }
 
