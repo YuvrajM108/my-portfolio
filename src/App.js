@@ -102,7 +102,7 @@ function App() {
             <p className="contact-text">via LinkedIn</p>
           </a>
           <a className="contact-link" href="https://www.twitter.com/YuvrajM108">
-            <img className="contact-logo" alt="twitter-logo" src="./images/twitter-logo.png" />
+            <img className="contact-logo" alt="twitter-logo" src="./images/x-logo.png" />
             <p className="contact-text">via Twitter</p>
           </a>
           <a className="contact-link" href="mailto: yuvrajmanoo1@gmail.com">
