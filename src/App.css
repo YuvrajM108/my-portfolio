@@ -541,6 +541,10 @@ p.hiddenlink {
 }
 
 @media screen and (max-width: 300px) {
+  h3.preview-note {
+    visibility: hidden;
+  }
+
   .project-row {
     flex-direction: column;
     align-items: center;
