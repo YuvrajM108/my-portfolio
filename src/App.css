@@ -208,6 +208,7 @@ a.contact-link {
   margin: 30px;
   border-radius: 3px;
   transition: box-shadow 0.2s linear;
+  font-style: oblique;
 }
 
 a.contact-link:hover {
