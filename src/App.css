@@ -213,7 +213,7 @@ a.contact-link {
 }
 
 a.contact-link:hover {
-  box-shadow: 0 0 8px #000;
+  box-shadow: 0 0 8px #fff700;
 }
 
 img.contact-logo {
