@@ -214,7 +214,6 @@ a.contact-link {
 
 a.contact-link:hover {
   box-shadow: 0 0 8px #000;
-  color: #fff700;
 }
 
 img.contact-logo {
@@ -369,6 +368,7 @@ a.navlink:hover {
   text-shadow: none;
   box-shadow: none;
   color: rgb(28, 28, 28);
+  color: #fff700;
 }
 
 a.navlink::after {
