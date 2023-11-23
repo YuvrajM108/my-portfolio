@@ -365,10 +365,10 @@ a.navlink {
 }
 
 a.navlink:hover {
-  text-shadow: none;
   box-shadow: none;
   color: rgb(28, 28, 28);
   color: #fff700;
+  text-shadow: 2px 2px #000;
 }
 
 a.navlink::after {
