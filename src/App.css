@@ -369,7 +369,7 @@ a.navlink:hover {
   color: rgb(28, 28, 28);
   color: #fff700;
   text-shadow: none;
-  -webkit-text-stroke: 2px #000;
+  -webkit-text-stroke: 0.7px #000;
 }
 
 a.navlink::after {
