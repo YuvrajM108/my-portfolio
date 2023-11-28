@@ -209,7 +209,7 @@ a.contact-link {
   border-radius: 3px;
   transition: box-shadow 0.2s linear;
   font-style: oblique;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 a.contact-link:hover {
