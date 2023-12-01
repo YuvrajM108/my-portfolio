@@ -215,6 +215,7 @@ a.contact-link {
 a.contact-link:hover {
   box-shadow: 0 0 8px #000;
   font-weight: lighter;
+  font-style: normal;
 }
 
 img.contact-logo {
