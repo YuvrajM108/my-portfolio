@@ -207,7 +207,7 @@ a.contact-link {
   text-decoration: none;
   margin: 30px;
   border-radius: 3px;
-  transition: box-shadow 0.2s linear;
+  transition: box-shadow 0.2s linear, background-color 250ms;
   font-style: oblique;
   font-weight: bold;
 }
