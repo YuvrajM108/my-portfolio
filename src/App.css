@@ -209,12 +209,11 @@ a.contact-link {
   border-radius: 3px;
   transition: box-shadow 0.2s linear, background-color 250ms;
   font-style: oblique;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 a.contact-link:hover {
   box-shadow: 0 0 8px #000;
-  font-weight: lighter;
   font-style: normal;
   background-color: #028d02;
 }
