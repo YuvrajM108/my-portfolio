@@ -173,7 +173,7 @@ h1.name {
 h1.name:hover {
   text-shadow: none;
   font-size: 52px;
-  box-shadow: 0 0 3px;
+  box-shadow: 0 0 6px;
 }
 
 a.name-link {
