@@ -366,6 +366,14 @@ a.navlink-top {
   animation-iteration-count: 1;
 }
 
+a.navlink-top:hover {
+  box-shadow: none;
+  color: rgb(28, 28, 28);
+  color: #fff700;
+  text-shadow: none;
+  -webkit-text-stroke: 0.7px #000;
+}
+
 a.navlink {
   color: orangered;
   text-decoration: none;
