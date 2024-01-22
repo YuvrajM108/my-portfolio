@@ -394,7 +394,7 @@ a.navlink {
 a.navlink:hover {
   box-shadow: none;
   color: rgb(28, 28, 28);
-  color: mediumpurple;
+  color: #df51e7;
   text-shadow: none;
   -webkit-text-stroke: 0.7px #000;
 }
