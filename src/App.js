@@ -110,7 +110,7 @@ function App() {
             <img className="contact-logo" alt="email-logo" src="./images/email-logo.png" />
             <p className="contact-text">via Email</p>
           </a>
-          <p className="copyright">© 2023 Yuvraj Manoo</p>
+          <p className="copyright">© 2024 Yuvraj Manoo</p>
         </div>
       </div>
     </div>
