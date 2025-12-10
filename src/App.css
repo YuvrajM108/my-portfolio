@@ -115,6 +115,7 @@ section.projectthree:hover {
 
 .bio,
 .project-menu {
+  padding-top: 80px;
   border-bottom: 5px groove black;
 }
 
