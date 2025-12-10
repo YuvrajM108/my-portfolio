@@ -118,7 +118,7 @@ section.projectthree:hover {
   border-bottom: 5px groove black;
 }
 
-img.professional-photo {
+/* img.professional-photo {
   object-fit: cover;
   height: 150px;
   width: 150px;
@@ -128,6 +128,32 @@ img.professional-photo {
   box-shadow: 5px 5px 5px black;
   animation: rise 1s;
   animation-iteration-count: 1;
+} */
+
+img.professional-photo {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+
+  border-radius: 50%;
+  /* circular */
+  display: block;
+  /* removes inline-img spacing issues */
+
+  margin: 60px auto 15px auto;
+  /* auto = guaranteed horizontal centering */
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  /* clean profile-photo outline */
+
+  animation: rise 0.9s ease-out;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+img.professional-photo:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
 }
 
 /* h1.name,
