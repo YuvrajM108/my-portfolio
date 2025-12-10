@@ -130,10 +130,28 @@ img.professional-photo {
   animation-iteration-count: 1;
 }
 
-h1.name,
+/* h1.name,
 .job-title {
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+h1.name,
+.job-title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  /* remove italics for cleaner look */
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+h1.job-title {
+  font-size: 28px;
+  font-weight: 500;
+  color: #333;
+  margin-top: 8px;
+  animation: fade 1s ease;
 }
 
 .projects-headings {
@@ -143,60 +161,105 @@ h1.name,
   align-items: center;
 }
 
-h1.projects-heading,
+/* h1.projects-heading,
 .contact-heading {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight: 600;
   animation: fade 0.5s;
   animation-iteration-count: 1;
+} */
+
+h1.projects-heading,
+.contact-heading {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+
+  font-size: 32px;
+  color: #202020;
+
+  animation: fade 0.4s ease;
 }
 
 h1.projects-heading {
   margin-bottom: 0;
 }
 
-h3.preview-note {
+/* h3.preview-note {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-top: 5px;
+} */
+
+h3.preview-note {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 6px;
+  color: #333;
 }
 
-h1.name {
+/* h1.name {
   font-size: 48px;
   text-shadow: 2px 2px 4px #fff;
   transition: font-size 250ms linear, box-shadow 500ms linear;
   width: 30%;
   border-radius: 5px;
+} */
+
+h1.name {
+  font-size: 48px;
+  line-height: 1.1;
+  color: black;
+
+  /* Modern subtle shadow */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+
+  transition: transform 0.25s ease, text-shadow 0.25s ease;
 }
 
-h1.name:hover {
+/* h1.name:hover {
   text-shadow: none;
   font-size: 52px;
   box-shadow: 0 0 6px;
-}
+} */
 
 a.name-link {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  color: black;
   text-decoration: none;
-  animation: fade 1.5s;
-  animation-iteration-count: 1;
+  color: inherit;
+  /* no forced color */
+  cursor: pointer;
+  animation: fade 1s ease;
 }
 
-a.name-link:hover {
+/* a.name-link:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
   text-shadow: none;
+} */
+
+a.name-link:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
-h1.job-title {
+a.name-link:hover h1.name {
+  transform: translateY(-3px);
+  /* subtle lift */
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* h1.job-title {
   font-size: 36px;
   animation: fade 1.5s;
   animation-iteration-count: 1;
-}
+} */
 
 a.contact-link {
   width: 12vw;
