@@ -43,7 +43,7 @@ function App() {
         <div className="projects-headings">
           <h1 className="projects-heading">Projects</h1>
           <h3 className="preview-note">Hover the cursor over a project to preview its live demo
-          or click the live demo link to try it for yourself!</h3>
+            or click the live demo link to try it for yourself!</h3>
         </div>
         <div className="project-row">
           <Project
@@ -110,7 +110,7 @@ function App() {
             <img className="contact-logo" alt="email-logo" src="./images/email-logo.png" />
             <p className="contact-text">via Email</p>
           </a>
-          <p className="copyright">© 2024 Yuvraj Manoo</p>
+          <p className="copyright">© 2025 Yuvraj Manoo</p>
         </div>
       </div>
     </div>
