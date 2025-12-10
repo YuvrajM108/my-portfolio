@@ -113,9 +113,12 @@ section.projectthree:hover {
   align-items: center;
 }
 
+.bio {
+  padding-top: 80px;
+}
+
 .bio,
 .project-menu {
-  padding-top: 80px;
   border-bottom: 5px groove black;
 }
 
